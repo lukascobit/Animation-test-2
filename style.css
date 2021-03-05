@@ -1,0 +1,141 @@
+body{
+    background-color: azure;
+}
+.Heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline black solid;
+    font-weight:10;
+}
+.Circle{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(64, 119, 190);
+    position:absolute;
+    right: 75%;
+    top: 25%;
+    animation-name: rotate;
+    animation-delay:2s;
+    animation-duration:120s;
+    animation-timing-function: linear;
+    border-radius: 50px;
+   
+}
+.Circle2{
+    
+    width: 100px;
+    height: 100px;
+    background-color:rgb(34, 100, 131);
+    position:absolute;
+    right: 77%;
+    top: 27%;
+    animation-name: rotate;
+    animation-duration:120s;
+    animation-delay:2s;
+    border-radius: 10px; 
+    animation-timing-function: linear;
+}
+.Circle3{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(64, 190, 173);
+    position:absolute;
+    right: 55%;
+    top: 25%;
+    animation-name: rotate;
+    animation-delay:2s;
+    animation-duration:120s;
+    animation-timing-function: linear;
+    border-radius: 80px;
+    
+   
+}
+.Circle4{
+    
+    width: 100px;
+    height: 100px;
+    background-color:rgb(62, 173, 99);
+    position:absolute;
+    right: 56%;
+    top: 27%;
+    animation-name: rotate;
+    animation-duration:120s;
+    animation-delay:2s;
+    border-radius: 20px; 
+    animation-timing-function: linear;
+}
+.Circle5{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(150, 65, 184);
+    position:absolute;
+    right: 35%;
+    top: 25%;
+    animation-name: rotate;
+    animation-delay:2s;
+    animation-duration:120s;
+    animation-timing-function: linear;
+    border-radius: 80px;
+    
+   
+}
+.Circle6{
+    
+    width: 130px;
+    height: 130px;
+    background-color:rgb(173, 62, 86);
+    position:absolute;
+    right: 37.5%;
+    top: 30%;
+    animation-name: rotate;
+    animation-duration:120s;
+    animation-delay:2s;
+    border-radius: 10px; 
+    animation-timing-function: linear;
+}
+.Circle7{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(65, 170, 184);
+    position:absolute;
+    right: 15%;
+    top: 25%;
+    animation-name: rotate;
+    animation-delay:2s;
+    animation-duration:120s;
+    animation-timing-function: linear;
+    border-radius: 80px;
+    
+   
+}
+.Circle8{
+    
+    width: 130px;
+    height: 130px;
+    background-color:rgb(95, 62, 173);
+    position:absolute;
+    right: 17%;
+    top: 30%;
+    animation-name: rotate;
+    animation-duration:120s;
+    animation-delay:2s;
+    border-radius: 30px; 
+    animation-timing-function: linear;
+}
+div:hover .Circle2{
+    border-radius: 120px;   
+}
+
+
+
+@keyframes rotate{
+from{
+    transform: rotate(0deg);
+}
+
+
+
+to{
+    transform: rotate(9000deg);
+}
+
+}
